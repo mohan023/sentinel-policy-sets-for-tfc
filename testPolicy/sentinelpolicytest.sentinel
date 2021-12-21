@@ -1,1 +1,2 @@
+import "request"
 main = rule { request.method is "GET" and request.headers contains "X-Key" }
