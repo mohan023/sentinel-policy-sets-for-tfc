@@ -1,2 +1,3 @@
-import "request"
-main = rule { request.method is "GET" and request.headers contains "X-Key" }
+import "strings"
+
+main = rule { strings.has_prefix(request_path, "/admin") }
