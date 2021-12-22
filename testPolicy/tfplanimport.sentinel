@@ -1,4 +1,5 @@
 import "tfplan"
+import "strings"
 
 main = rule {
     all tfplan.resources as r {
