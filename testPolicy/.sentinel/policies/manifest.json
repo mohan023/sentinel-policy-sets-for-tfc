@@ -1,0 +1,16 @@
+{
+	"records": [
+		{
+			"key": "test",
+			"source": "./timezonepolicy.sentinel",
+			"sourceSum": "",
+			"dest": "C:/Mohans/Automation-IaaC/sentinel-policy-sets-for-tfc/testPolicy/timezonepolicy.sentinel"
+		},
+		{
+			"key": "terraform-maintenance-windows",
+			"source": "./sentinelpolicytest.sentinel",
+			"sourceSum": "",
+			"dest": "C:/Mohans/Automation-IaaC/sentinel-policy-sets-for-tfc/testPolicy/sentinelpolicytest.sentinel"
+		}
+	]
+}

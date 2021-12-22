@@ -1,3 +1,2 @@
-import "strings"
-
-main = rule { strings.has_prefix(request_path, "/admin") }
+hour = 4
+main = rule { hour >= 0 and hour < 12 }

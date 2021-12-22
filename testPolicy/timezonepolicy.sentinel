@@ -1,5 +1,0 @@
-
-# Main rule
-main = rule {
-  length("messages") is 0
-}
