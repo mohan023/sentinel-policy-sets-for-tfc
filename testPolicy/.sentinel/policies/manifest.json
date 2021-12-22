@@ -1,16 +1,10 @@
 {
 	"records": [
 		{
-			"key": "test",
-			"source": "./timezonepolicy.sentinel",
-			"sourceSum": "",
-			"dest": "C:/Mohans/Automation-IaaC/sentinel-policy-sets-for-tfc/testPolicy/timezonepolicy.sentinel"
-		},
-		{
 			"key": "terraform-maintenance-windows",
-			"source": "./sentinelpolicytest.sentinel",
-			"sourceSum": "",
-			"dest": "C:/Mohans/Automation-IaaC/sentinel-policy-sets-for-tfc/testPolicy/sentinelpolicytest.sentinel"
+			"source": "https://raw.githubusercontent.com/mohan023/sentinel-policy-sets-for-tfc/master/testPolicy/sentinelpolicytest.sentinel",
+			"sourceSum": "e48670f81ed5214223e04899dfd196a9",
+			"dest": "C:/Mohans/Automation-IaaC/sentinel-policy-sets-for-tfc/testPolicy/.sentinel/policies/terraform-maintenance-windows-e48670f81ed5214223e04899dfd196a9.sentinel"
 		}
 	]
 }
