@@ -1,0 +1,7 @@
+import "tfplan"
+
+main = rule {
+    all tfplan.resources as r {
+        r.attr contains "tags" and length(r.attr.tags) > 0
+    }
+}
