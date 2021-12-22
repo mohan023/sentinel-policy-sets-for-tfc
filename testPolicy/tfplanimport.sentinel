@@ -2,6 +2,8 @@ import "tfplan/v2" as tfplan
 
 import "strings"
 
+print(tfplan)
+
 main = rule {
     all tfplan.resources as _, r {
         r.attr contains "tags" and length(r.attr.tags) > 0
