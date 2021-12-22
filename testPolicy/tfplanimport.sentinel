@@ -3,7 +3,7 @@ import "tfplan/v2" as tfplan
 import "strings"
 
 main = rule {
-    for tfplan.resource_changes as address, r {
+    filter tfplan.resource_changes as address, r {
 	print(address)
         r.attr contains "tags" and length(r.attr.tags) > 0
     }
