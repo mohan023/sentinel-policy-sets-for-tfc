@@ -3,7 +3,8 @@ import "tfplan/v2" as tfplan
 import "strings"
 
 main = rule {
-    all tfplan.resource_changes as r {
+    filter tfplan.resource_changes as r {
+	Print(r)
         r.attr contains "tags" and length(r.attr.tags) > 0
     }
 }
