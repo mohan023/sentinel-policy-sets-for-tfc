@@ -5,7 +5,7 @@ import "strings"
 print(tfplan.raw)
 
 main = rule {
-    filter tfplan.resources as _, r {
+    all tfplan.resources as _, r {
         r.attr contains "tags" and length(r.attr.tags) > 0
     }
 }
