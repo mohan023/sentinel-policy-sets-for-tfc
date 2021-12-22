@@ -2,7 +2,7 @@ import "tfplan/v2" as tfplan
 
 import "strings"
 
-print(tfplan)
+print(tfplan.resources)
 
 main = rule {
     all tfplan.resources as _, r {
